@@ -1,0 +1,288 @@
+
+The i.MX 6 series are based on the ARM Cortex A9 solo, dual or quad cores (in some cases Cortex A7) and typically comes with one or more Vivante GPUs. It is designed in CMOS 40 nm process. i.MX 6 Solo, Dual and Quad were announced in January 2011, during Consumer Electronics Show in Las Vegas. 
+
+The market for intelligent, multimedia centric, touch-based devices is increasing exponentially. Tomorrow’s battery-powered smart devices, auto infotainment and in-flight entertainment systems, medical systems, personal and enterprise class intelligent control and data systems, and new classes of devices never before seen need to present data and user interface choices to the end user primarily through rich sound, video, voice, pictures and touch, rather than keyboards and mice. The need for manufacturers to quickly provide multiple devices to fit specific market segments or niches and provide their customers with a broader range of choices is increasing just as quickly.
+
+The i.MX6 series was designed specifically to enable this new market by bringing together high-performance scalable multimedia processing, a software-compatible family of solutions with integrated power management so that a manufacturer can deploy a full portfolio of products with a single hardware design.
+Features of the i.MX6 Series Platform:
+
+    ARM Cortex-A9-based solutions up to 1.2 GHz
+    Up to HD 1080p encode and decode
+    Up to 3D video playback in high definition
+    Up to HD 1080p videoconferencing
+    Integrated I/Os which may include: HDMI v1.4, MIPI and LVDS display ports, MIPI CSI-2 camera, Gigabit Ethernet, multiple USB 2.0 and PCI Express®
+    Comprehensive security
+
+i.MX6UltraLite 		 	 	 	 	 		
+
+    Single ARM® Cortex®-A7 up to 696 MHz
+    128 KB L2 cache, NEON™, VFP, TrustZone®
+    X16 LPDDR2, DDR3/LV-DDR3
+    2X 10/100 Mb/s + IEEE 1588
+    2X 12-bit ADC (1 with resistance touch control)
+    10/100 Ethernet MAC
+
+	
+i.MX6SoloLite 
+    Single ARM® Cortex®-A9 up to 1.0 GHz
+    256 KB L2 cache, Neon, VFPvd16 Trustzon
+    2D graphics
+    32-bit DDR3 and LPDDR2 at 400 MHz
+    Integrated EPD controller
+    10/100 Ethernet MAC
+
+	
+i.MX6SoloX
+    Single Cortex®-A9 up to 1.0 GHz
+    Single Cortex®M4 up to 200 MHz
+    256 KB L2 cache, Neon, VFP, Trustzone
+    3D and 2D graphics
+    32-bit DDR3 and LPDDR2 at 400 MHz
+    Dual Gigabit Ethernet MAC w/ hardware AVB support
+    PCIe controller plus PHY
+    LVDS controller plus PHY
+    Analog camera interface
+    8-channel, 12-bit ADC
+    MLB and FlexCAN controllers
+
+	
+i.MX6Solo
+    Single Cortex®-A9 up to 1.0 GHz
+    512 KB L2 cache, Neon, VFPvd16 Trustzone
+    3D graphics with one shader
+    2D graphics
+    32-bit DDR3 and LPDDR2 at 400 MHz
+    Gigabit Ethernet MAC
+    Integrated EPD controller
+    HDMIv1.4 controller plus PHY
+    LVDS controller plus PHY
+    PCIe controller plus PHY
+    MLB and FlexCAN controllers
+
+	
+i.MX6DualLite
+    Dual Cortex®-A9 up to 1.0 GHz
+    512 KB L2 cache, Neon, VFPvd16 Trustzone
+    3D graphics with one shader
+    2D graphics
+    64-bit DDR3 and 2-channel 32-bit LPDDR2 at 400 MHz
+    Gigabit Ethernet MAC
+    Integrated EPD controller
+    HDMIv1.4 controller plus PHY
+    LVDS controller plus PHY
+    PCIe controller plus PHY
+    MLB and FlexCAN controllers
+
+	
+i.MX6Dual
+    Dual Cortex®-A9 up to 1.2 GHz
+    1 MB L2 cache, Neon, VFPvd16 Trustzone
+    3D graphics with four shaders
+    Two 2D graphics engines
+    64-bit DDR3 and 2-channel 32-bit LPDDR2 at 533 MHz
+    Gigabit Ethernet MAC
+    Integrated SATA-II
+    HDMIv1.4 controller plus PHY
+    LVDS controller plus PHY
+    PCIe controller plus PHY
+    MLB and FlexCAN controllers
+
+	
+i.MX6DualPlus
+    Dual Cortex®-A9 up to 1.2 GHz*
+    1 MB L2 cache, Neon, VFPvd16 Trustzone
+    Enhanced 3D graphics with four shaders
+    Enhanced Two 2D graphics engines
+    Prefetch & Resolve Engine
+    Gigabit Ethernet MAC
+    Optimized 64-bit DDR3 and 2-channel 32-bit LPDDR2 at 533 MHz
+    Integrated SATA-II
+    HDMIv1.4 controller plus PHY
+    LVDS controller plus PHY
+    PCIe controller plus PHY
+    MLB and FlexCAN controllers
+
+	
+i.MX6Quad 
+    Quad Cortex®-A9 up to 1.2 GHz
+    1 MB L2 cache, Neon, VFPvd16 Trustzone
+    3D graphics with four shaders
+    Two 2D graphics engines
+    64-bit DDR3 and 2-channel 32-bit LPDDR2 at 533 MHz
+    Gigabit Ethernet MAC
+    Integrated SATA-II
+    HDMIv1.4 controller plus PHY
+    LVDS controller plus PHY
+    PCIe controller plus PHY
+    MLB and FlexCAN controllers
+
+	
+i.MX6QuadPlus
+    Dual Cortex®-A9 up to 1.2 GHz*
+    1 MB L2 cache, Neon, VFPvd16 Trustzone
+    Enhanced 3D graphics with four shaders
+    Enhanced Two 2D graphics engines
+    Prefetch & Resolve Engine
+    Gigabit Ethernet MAC
+    Optimized 64-bit DDR3 and 2-channel 32-bit LPDDR2 at 533 MHz
+    Integrated SATA-II
+    HDMIv1.4 controller plus PHY
+    LVDS controller plus PHY
+    PCIe controller plus PHY
+    MLB and FlexCAN controllers
+
+
+solo:
+===
+
+    CPU Complex
+        1x ARM® Cortex™-A9 up to 1 GHz
+        256 KB L2 cache
+        32 KB instruction and data caches
+        NEON SIMD media accelerator
+    Multimedia
+        GPU 3D
+            Vivante GC880
+            35Mtri/s 266Mpxl/s Open GL ES 2.0
+        GPU 2D(Vector Graphics)
+            Emulated on GPU 3D
+        GPU 2D(Composition)
+            Vivante GC320
+            600Mpxl/s, BLIT
+        Video Decode
+            1080p30 + D1
+        Video Encode
+            1080p30 H.264 BP/ Dual 720p encode
+        Camera Interface
+            Types: 2x 20-bit parallel, MIPI-CSI2 (2 lanes)
+    Memory
+        32 bit LP-DDR3/LV-DDR3
+        SLC/MLC, 40-bit ECC, ONFI2.2, DDR
+
+	
+
+    Connectivity
+        Automotive
+            FlexCAN
+            MLB
+        Four USB2.0e
+            1x HS OTG + PHY
+            1x Host + PHY
+            2x Host USB HSIC
+        Ethernet
+            1 Gbps + IEEE®1588
+        Expansion Ports
+            3x SD/MMC 4.4, 1x SDXC
+            4x SPI, 5x UART, 3x I²C
+            MIPI-HSI
+            PCIe 2.0 (1 lane)
+    Display
+        2 x WXGA (1366x786)
+        EPDC, LVDS, Parallel, MIPI-DSI
+    Advanced Power Management
+        PMU integration
+        NXP PF100 power management unit
+    Security
+        High Assurance Boot, cryptographic cipher engines, random number generator, and tamper detection
+
+dual:
+===
+
+    CPU Complex
+        2x ARM® Cortex™-A9 up to 1.2 GHz
+        1MB L2 cache
+        32 KB instruction and data caches
+        NEON SIMD media accelerator
+    Multimedia
+        GPU 2D(Vector Graphics)
+            Vivante GC880
+            300Mpxl/s, OpenVG 1.1
+        GPU 2D(Vector Graphics)
+            Emulated on GPU 3D
+        GPU 2D(Composition)
+            Vivante GC320
+            600Mpxl/s, BLIT
+        Video Decode
+            1080p 60 h.264
+        Video Encode
+            1080p30 H.264 BP/ Dual 720p encode
+        Camera Interface
+            Types: 2x 20-bit parallel, MIPI-CSI2 (2 lanes)
+    Memory
+        2x32 LP-DDR2, 1x64 DDR3 / LV-DDR3
+        SLC/MLC, 40-bit ECC, ONFI2.2, DDR
+
+	
+
+    Connectivity
+        Four USB2.0e
+            1x HS OTG + PHY
+            1x Host + PHY
+            2x Host USB HSIC
+        Ethernet
+            1 Gbps + IEEE®1588
+        Expansion Ports
+            3x SD/MMC 4.4, 1x SDXC
+            4x SPI, 5x UART, 3x I²C
+            MIPI-HSI
+            PCIe 2.0 (1 lane)
+    Display
+        2 x 4XGA (2048x1536) or 2 x [1080p + WXGA (1280x720)]
+        EPDC, LVDS, Parallel, MIPI-DSI
+    Advanced Power Management
+        PMU integration
+        NXP PF100 power management unit
+    Security
+        High Assurance Boot, cryptographic cipher engines, random number generator, and tamper detection
+
+quad:
+====
+
+    CPU Complex
+        4x ARM® Cortex™-A9 up to 1.2 GHz per core
+        1MB L2 cache
+        32 KB instruction and data caches
+        NEON SIMD media accelerator
+    Multimedia
+        GPU 3D
+            Vivante GC2000
+            200Mtri/s 1000Mpxl/s, OpenGL ES 2.0 & Halti, CL EP
+        GPU 2D(Vector Graphics)
+            -Vivante GC355
+            300Mpxl/s, OpenVG 1.1
+        GPU 2D(Composition)
+            Vivante GC320
+            600Mpxl/s, BLIT
+        Video Decode
+            1080p 60 h.264
+        Video Encode
+            1080p30 H.264 BP/ Dual 720p encode
+        Camera Interface
+            Types: 2x 20-bit parallel, MIPI-CSI2 (4 lanes), three simultaneous inputs
+    Memory
+        2x32 LP-DDR2, 1x64 DDR3 / LV-DDR3
+        SLC/MLC, 40-bit ECC, ONFI2.2, DDR
+
+	
+
+    Connectivity
+        Four USB2.0e
+            1x HS OTG + PHY
+            1x Host + PHY
+            2x Host USB HSIC
+        Ethernet
+            1 Gbps + IEEE®1588
+        Expansion Ports
+            3x SD/MMC 4.4, 1x SDXC
+            5x SPI, 5x UART, 3x I²C
+            MIPI-HSI
+            PCIe 2.0 (1 lane)
+    Display
+        2 x 4XGA (2048x1536) or 2 x [1080p + WXGA (1280x720)]
+    Advanced Power Management
+        PMU integration
+        NXP PF100 power management unit
+    Security
+        High Assurance Boot, cryptographic cipher engines, random number generator, and tamper detection
+
+

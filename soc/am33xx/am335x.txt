@@ -1,0 +1,30 @@
+
+Texas Instruments AM335x ARM® Cortex™-A8 MPUs
+==============================================
+
+Texas Instruments AM335x ARM® Cortex™-A8 Microprocessors are highly integrated MPUs based on the Cortex-A8 processor that deliver high DMIPs at a low cost while also delivering optional 3D graphics acceleration and key peripherals. These TI Cortex-A8 MPUs include industrial interface options, such as EtherCAT and PROFIBUS, and can support the Linux® and Android™ high-level operating systems. The combination of graphics and connectivity support makes TI AM335x MPUs ideal for portable navigation systems, handheld gaming devices, education, and home/building automation solutions. 
+
+
+
+
+    Feature-rich ARM Cortex-A8-based solution with performance up to 720MHz
+    Fully integrated solution including key peripherals
+        CAN
+        2-port Gigabit Ethernet switch
+        USB+PHY
+        Acceleration
+        LPDDR1/DDR2/DDR3
+    Programmable Real-time Unit (PRU) adapts to new application-specific standards with user configurable I/Os
+    Flexible power management options to minimize active power while enabling standby power as low as 7mW
+    System-on-a-chip with display subsystem including touch screen controller, 3D graphics accelerator, and display controller
+
+
+
+    StarterWare™ software suite eases design with a microcontroller-like development environment, without requiring an operating system (OS)
+    Optional support for both EtherCAT® and PROFIBUS® industrial interfaces
+    Wireless connectivity support pre-integrated, including Wi-Fi™, Bluetooth® and other technologies
+    Broad software support for Linux, Android™ and Windows® Embedded Compact 7, in addition to a variety of third-party RTOS offerings
+
+
+
+
